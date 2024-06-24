@@ -4,12 +4,9 @@
 
 layout: default
 ---
-
-`CDEHP Dataset` is a large scale multimodal event-based human pose dataset. If you are interesting about building multimodal dataset, please refer to [How to Make](/how-to-make).
-
 ## Introduction
 
-We are proud to announce a new large scale multimodal event-based dataset `CDEHP Dataset`(**C**olor **D**epth **E**vent **H**uman **P**ose). `CDEHP Dataset` uses RGB, Depth, and Event cameras to capture actions, bringing a new benchmark to the research of multi-modal models. Of course, you can also use this dataset to carry out research work in the RGB-D field or event camera field.
+We are proud to announce a new large scale multimodal event-based human pose/action dataset `CDEHP Dataset`(**C**olor **D**epth **E**vent **H**uman **P**ose) with Color (RGB), Depth, and Event modules. `CDEHP Dataset` uses RGB, Depth, and Event cameras to simultaneously capture actions from a variety of subjects, bringing a new multimodal benchmark to the research of event-based human pose estimation and action recognition. Of course, you can also use this dataset to carry out research work in the RGB-D field or event camera field. If you are interested to build a multimodal event-based dataset, please refer to [How to Make](/how-to-make).
 
 ### Action Class
 
@@ -55,18 +52,18 @@ To cite our datasets, please refer to:
    URL        = {https://www.sciencedirect.com/science/article/pii/S0031320323007458},
    AUTHOR     = {Zhanpeng Shao and Xueping Wang and Wen Zhou and Wuzhen Wang and Jianyu Yang and Youfu Li},
    KEYWORDS   = {Event signal, Human pose estimation, Dense connections, Recurrent network, Dataset},
-   ABSTRACT   = {Event camera is an emerging bio-inspired vision sensors that report per-pixel brightness changes asynchronously. It holds noticeable advantage of high dynamic range, high speed response, and low power budget that enable it to best capture local motions in uncontrolled environments. This motivates us to unlock the potential of event cameras for human pose estimation, as the human pose estimation with event cameras is rarely explored. Due to the novel paradigm shift from conventional frame-based cameras, however, event signals in a time interval contain very limited information, as event cameras can only capture the moving body parts and ignores those static body parts, resulting in some parts to be incomplete or even disappeared in the time interval. This paper proposes a novel densely connected recurrent architecture to address the problem of incomplete information. By this recurrent architecture, we can explicitly model not only the sequential but also non-sequential geometric consistency across time steps to accumulate information from previous frames to recover the entire human bodies, achieving a stable and accurate human pose estimation from event data. Moreover, to better evaluate our model, we collect a large-scale multimodal event-based dataset that comes with human pose annotations, which is by far the most challenging one to the best of our knowledge. The experimental results on two public datasets and our own dataset demonstrate the effectiveness and strength of our approach. Code is available online for facilitating the future research.}
 }
 ```
 
 ## Use Dataset
 
-* The size of the `CDEHP Dataset` is large, but we have prepared a variety of official distribution channels. Please follow the [download page](/download) to download the dataset and annotation files, please remember to verify the size of each fragment.
-* In order to make subsequent research results comparable, `CDEHP Dataset` officially divides the verification set. **Please follow this method to ensure the fairness of the research work.**
+* The size of the `CDEHP Dataset` is large. We have prepared a couple of official distribution channels. Please follow the [download page](/download) to get the dataset and annotation files, please remember to verify the size of each fragment.
+* In order to make a comparable metric, `CDEHP Dataset` has been officially divided into the training set and the verification set for your information. **Please follow this protocol to ensure the fairness of the comparison.**
+
 
 ## Projects
 
-* [Website](https://github.com/CDEHP-Dataset/cdehp-dataset.github.io): This website, for promotion, distribution and feedback.
+* [Website](https://github.com/CDEHP-Dataset/cdehp-dataset.github.io): This website is for the dataset distribution and any feedback.
 * [PyCeleX5](https://github.com/CDEHP-Dataset/PyCeleX5): CelePixel CeleX5-MIPI C++ API Wrapper for Python 3.
 * [Calibration-Tool](https://github.com/CDEHP-Dataset/Calibration-Tool): Twin calibration tools for RGB cameras and event cameras.
 * [Recording-Tool](https://github.com/CDEHP-Dataset/Calibration-Tool): Recording tools for making CDEHP-Dataset.
@@ -96,5 +93,5 @@ To cite our datasets, please refer to:
 
 ## Contact
 
-* If you have any questions, please raise an issue on the project's [Github repository](https://github.com/CDEHP-Dataset/cdehp-dataset.github.io/issues).
-* If you are looking for related cooperation opportunities please contact [Prof. Z.P. Shao](https://perryshao.github.io/).
+* If you have any question, please raise an issue on the project's [Github repository](https://github.com/CDEHP-Dataset/cdehp-dataset.github.io/issues).
+* If you are looking for further discussion and opportunities please contact [Prof. Z.P. Shao](https://perryshao.github.io/).
