@@ -6,7 +6,7 @@ permalink: /download
 
 ## Download Link
 
-Please prepare at least 100GiB of space for storing the CDEHP dataset. The decompressed data storage size will be doubled.
+Please prepare at least 100GiB space to store the CDEHP dataset. The decompressed data storage size will be doubled.
 
 |             File Name              |                                                            Github                                                             |                            Baidu Disk                            | file size  | sha256sum                                                        |
 | :--------------------------------: | :---------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------: | :--------- | :--------------------------------------------------------------- |
@@ -40,7 +40,7 @@ Please prepare at least 100GiB of space for storing the CDEHP dataset. The decom
 
 ## Integrity Verification
 
-After all chunks have been downloaded, it is strongly recommended that you perform a consistency check.
+After all chunks downloaded, it is strongly recommended that you need to perform a consistency check.
 
 ```shell
 # No output means the verification is successful
