@@ -31,7 +31,7 @@ We are proud to announce a new large scale multimodal event-based human pose/act
 |  A35  |     spinning     |  A36  |   throwing    |  A37  |        long jump        |  A38  |         burpee          |
 
 
-### Action Samples
+### Visualization of Action Samples
 
 ![Indoor samples of all action classes](/assets/Indoor.png)
 ![Outdoor samples of all action classes](/assets/Outdoor.png)
