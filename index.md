@@ -33,7 +33,7 @@ We are proud to announce a new large scale multimodal event-based human pose/act
 
 ### Action Samples
 
-![Indoonsamples of all action classes](/assets/Indoor.png)
+![Indoor samples of all action classes](/assets/Indoor.png)
 ![Outdoor samples of all action classes](/assets/Outdoor.png)
 
 ## Citation
@@ -58,7 +58,7 @@ To cite our datasets, please refer to:
 ## Use Dataset
 
 * The size of the `CDEHP Dataset` is large. We have prepared a couple of official distribution channels. Please follow the [download page](/download) to get the dataset and annotation files, please remember to verify the size of each fragment.
-* In order to make a comparable metric, `CDEHP Dataset` has been officially divided into the training set and the verification set for your information. **Please follow this protocol to ensure the fairness of the comparison.**
+* In order to make a fair comparison, `CDEHP Dataset` has been officially divided into the training set and the verification set for your information. **Please follow this protocol to ensure the fairness of the comparison.**
 
 
 ## Projects

@@ -8,6 +8,7 @@ permalink: /how-to-make
 
 We fixed a depth camera and an event camera on a simple tripod, and took action videos from a number of volunteers. The data annotations are obtained by using crowdsourcing with post-reviewing.
 
+
 ## Hardware Requirement
 
 * A depth camera (We used `Intel® RealSense™ D435i`).
