@@ -2,6 +2,7 @@
 layout: default
 title: Annotation
 permalink: /annotation
+full-width: true
 ---
 
 ## Dataset Directory
