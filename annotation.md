@@ -50,9 +50,9 @@ CDEHP
     └── valid
 ```
 
-## Definition of Key Points
+## Definition of Keypoints
 
-In our dataset, 13 key points were used to label the human body:
+In our dataset, 13 keypoints were used to label the human body:
 
   1. Head
   2. Left Shoulder
@@ -76,7 +76,7 @@ Keypoints are annotated as a set of percentages with respect to the image width 
 
 ```
 13                                      # Number of keypoints
-event_name:000001                       # Corresponding file name of the event frame
+event_name:000001                       # The file name of the corresponding event frame
 0.7016509433962265 0.41458333333333336  # The keypoint coordinates, which are percentages with respect to the image width and length (x,y)
 0.7158018867924528 0.4375
 0.7099056603773585 0.4479166666666667
