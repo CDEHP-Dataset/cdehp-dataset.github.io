@@ -8,7 +8,7 @@ permalink: /download
 
 Please prepare at least 100GiB space to store the CDEHP dataset. The decompressed data storage size will be doubled.
 
-**Notice:** The table below provides only two parts of the dataset for your information. Please send an email to [zpshao at hunnu dot edu dot cn](zpshao@hunnu.edu.cn) apply for a full access to the dataset download with the subject "Application for the CDEHP dataset download" if you are interested in conducting evaluation and research on it. 
+**Notice:** The table below provides only two parts of the dataset for your information. Please send an email to [zpshao at hunnu dot edu dot cn](mailto:zpshao@hunnu.edu.cn) apply for a full access to the dataset download with the subject "Application for the CDEHP dataset download" if you are interested in conducting evaluation and research on it. 
 
 |             File Name              |                                                            Github                                                             |                            Baidu Disk                            | file size  | sha256sum                                                        |
 | :--------------------------------: | :---------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------: | :--------- | :--------------------------------------------------------------- |
