@@ -14,7 +14,7 @@ We are proud to announce a new large scale multimodal event-based human pose/act
 
 |  ID   | Action Name  |  ID   |   Action Name    |  ID   |     Action Name     |  ID   |       Action Name       |
 | :---: | :----------: | :---: | :--------------: | :---: | :-----------------: | :---: | :---------------------: |
-|  A1   |   walking    |  A2   |  squat jumping   |  A3   |       boxing        |  A4   |       picking up        |
+|  A1   |   walking    |  A2   |  squat jump   |  A3   |       boxing        |  A4   |       picking up        |
 |  A5   | jumping jack |  A6   | crotch high five |  A7   |      sweeping       |  A8   | alternate jumping lunge |
 |  A9   |   big jump   |  A10  |   sit-up jump    |  A11  | shuttlecock kicking |  A12  |        throwing         |
 |  A13  |   spinning   |       |                  |       |                     |       |                         |
@@ -23,12 +23,14 @@ We are proud to announce a new large scale multimodal event-based human pose/act
 
 |  ID   |   Action Name    |  ID   |  Action Name  |  ID   |       Action Name       |  ID   |       Action Name       |
 | :---: | :--------------: | :---: | :-----------: | :---: | :---------------------: | :---: | :---------------------: |
-|  A15  |     running      |  A16  | squat jumping |  A17  |        frog jump        |  A18  | jump fwd/bwd/left/right |
-|  A19  |      boxing      |  A20  |  picking up   |  A21  |        cartwheel        |  A22  |      jumping jack       |
-|  A23  | crotch high five |  A24  |   crawling    |  A25  |      rope skipping      |  A26  |        sweeping         |
-|  A27  |     mopping      |  A28  |    cycling    |  A29  | alternate jumping lunge |  A30  |        big jump         |
-|  A31  |   sit-up jump    |  A32  |    kicking    |  A33  |        jump shot        |  A34  |   shuttlecock kicking   |
-|  A35  |     spinning     |  A36  |   throwing    |  A37  |        long jump        |  A38  |         burpee          |
+
+|  A1  | walking           |  A2  |     running    |  A3  | squat jump         |  A4  |        frog jump |        
+|  A5  | jump fwd/bwd/left/right  |  A6  |      boxing      |  A7  |  picking up   |  A8  |  cartwheel           |
+|  A9  |      jumping jack  |  A10  | crotch high five |  A11  |   crawling    |  A12  |   rope skipping   |      
+|  A13 |   sweeping         |  A14  |     mopping      |  A15  |    cycling    |  A16  | alternate jumping lunge | 
+|  A17 |        big jump    |  A18  |   sit-up jump    |  A19  |    kicking    |  A20  |    jump shot        |  
+|  A21 |   shuttlecock kicking   |  A22  |     spinning     |  A23  |   throwing    |  A24  |        long jump   |
+|  A25 |        burpee          |      |             |       |            |       |                        |
 
 
 ### Visualization of Action Samples
