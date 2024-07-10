@@ -22,8 +22,7 @@ We are proud to announce a new large scale multimodal event-based human pose/act
 #### Outdoor Actions (25)
 
 |  ID   |   Action Name    |  ID   |  Action Name  |  ID   |       Action Name       |  ID   |       Action Name       |
-| :---: | :--------------: | :---: | :-----------: | :---: | :---------------------: | :---: | :---------------------: |
-
+| :---: | :--------------: | :---: | :-----------: | :---: | :---------------------: |:---: | :---------------------: |
 |  A1  | walking           |  A2  |     running    |  A3  | squat jump         |  A4  |        frog jump |        
 |  A5  | jump fwd/bwd/left/right  |  A6  |      boxing      |  A7  |  picking up   |  A8  |  cartwheel           |
 |  A9  |      jumping jack  |  A10  | crotch high five |  A11  |   crawling    |  A12  |   rope skipping   |      
