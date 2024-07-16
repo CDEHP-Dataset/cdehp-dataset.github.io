@@ -8,7 +8,7 @@ permalink: /download
 
 Please prepare at least 100GiB space to store the CDEHP dataset. The decompressed data storage size will be doubled.
 
-**Notice:** The table below provides only two parts of the dataset for your information. Please send an email to [zpshao at hunnu dot edu dot cn](mailto:zpshao@hunnu.edu.cn) apply for a full access to the dataset download with the subject "Application for the CDEHP dataset download" if you are interested in conducting evaluation and research on it. 
+**Notice:** The table below provides only two parts of the dataset for your information. Please send an email to [zpshao at hunnu dot edu dot cn](mailto:zpshao@hunnu.edu.cn) to apply for a full access to the dataset download with the subject "Application for the CDEHP dataset download" if you are interested in conducting evaluation and research on it. Normally, we only provide the data with the RGB frames,raw depth frames, and event frames. Please let us know in the email if you want to access the raw event data in the format of $(x,y,t,p)$. 
 
 |             File Name              |                                                            Github                                                             |                            Baidu Disk                            | file size  | sha256sum                                                        |
 | :--------------------------------: | :---------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------: | :--------- | :--------------------------------------------------------------- |
@@ -51,6 +51,8 @@ sha256sum --quiet -c CDEHP_indoor_v1.0_CHECKSUM.sha256
 ```
 
 ## Unzip the Dataset
+
+Please make sure you unzip all Zip files into one same directory path, so that you can get a complete dataset. To this end, please use command line to do the unzipping, because some GUI-based apps (e.g., MacZip) may unzip these Zip files into different directory paths.
 
 ```shell
 unzip *.zip
