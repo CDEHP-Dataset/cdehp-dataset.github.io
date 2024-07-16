@@ -52,7 +52,7 @@ sha256sum --quiet -c CDEHP_indoor_v1.0_CHECKSUM.sha256
 
 ## Unzip the Dataset
 
-Please make sure you unzip all Zip files into one same directory path, so that you can get a complete dataset. To this end, please use command line to do the unzipping, because some GUI-based apps (e.g., MacZip) may unzip these Zip files into different directory paths.
+Please make sure you unzip all Zip files into one same directory path, so that you can get a complete dataset. To this end, please use the command line to do the unzipping, because some GUI-based apps (e.g., MacZip) may unzip these Zip files into different directory paths.
 
 ```shell
 unzip *.zip
