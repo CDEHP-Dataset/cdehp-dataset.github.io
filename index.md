@@ -8,7 +8,15 @@ layout: default
 
 We are proud to announce a new large scale multimodal event-based human pose/action dataset `CDEHP Dataset`(**C**olor **D**epth **E**vent **H**uman **P**ose) with Color (RGB), Depth, and Event modules. `CDEHP Dataset` uses RGB, Depth, and Event cameras to simultaneously capture actions from a variety of subjects, bringing a new multimodal benchmark to the research of event-based human pose estimation and action recognition. Of course, you can also use this dataset to carry out research work in the RGB-D field or event camera field. If you are interested to build a multimodal event-based dataset, please refer to [How to Make](/how-to-make).
 
-### Action Class
+## Action Statistic
+
+|  Scenes   | # Subjects  |  # Actions |  Modality |  # Frames of Train Set   |  # Frames of Test Set | # Total Frames |
+| :-------: | :----: | :---: | :------------------: | :---: |:---: |:---: |
+|  Outdoor        |  10  |  13 |  RGB, Depth, Event |   82.785K   |  18.486K |101.271K|
+|  Indoor         |  20  |  25 |  RGB, Depth, Event |   30.232K   |  14.643K |  44.875K|
+|  Outdoor&Indoor |  30  |  25 |  RGB, Depth, Event |   113.017K   |  33.129K |  146.146K|
+
+## Action Class
 
 #### Indoor Actions (13)
 
@@ -32,7 +40,7 @@ We are proud to announce a new large scale multimodal event-based human pose/act
 |  A25 |        burpee          |      |             |       |            |       |                        |
 
 
-### Visualization of Action Samples
+## Visualization of Action Samples
 
 ![Indoor samples of all action classes](/assets/Indoor.png)
 ![Outdoor samples of all action classes](/assets/Outdoor.png)
