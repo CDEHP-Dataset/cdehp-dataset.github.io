@@ -10,11 +10,11 @@ We are proud to announce a new large scale multimodal event-based human pose/act
 
 ## Dataset Statistic
 
-|  Scenes   | # Subjects  |  # Actions |  Modality |  # Frames of Train Set   |  # Frames of Test Set | # Total Frames |
-| :-------: | :----: | :---: | :------------------: | :---: |:---: |:---: |
+|  Scenes   | # Sub  |  # Act |  Modality |  # Frames of Train Set   |  # Frames of Test Set | # Total Frames |
+| :-------: | :------: | :-----: | :------------------: | :--------: |:-------: |:-----: |
 |  Outdoor        |  10  |  13 |  RGB, Depth, Event |   82.785K   |  18.486K |101.271K|
 |  Indoor         |  20  |  25 |  RGB, Depth, Event |   30.232K   |  14.643K |  44.875K|
-|  Outdoor&Indoor |  30  |  25 |  RGB, Depth, Event |   113.017K   |  33.129K |  146.146K|
+|  Both |  30  |  25 |  RGB, Depth, Event |   113.017K   |  33.129K |  146.146K|
 
 ## Action Class
 
