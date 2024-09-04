@@ -14,8 +14,9 @@ We are proud to announce a new large scale multimodal event-based human pose/act
 | :-------: | :-----------------: | :-----: | :------: | :--------: |:-------: |:-----: |
 |  Outdoor        |  RGB, Depth, Event|  10  |  13  |   82.785K   |  18.486K |101.271K|
 |  Indoor         |  RGB, Depth, Event|  20  |  25  |   30.232K   |  14.643K |  44.875K|
-|  Both           |  RGB, Depth, Event|  30  |  25  |   113.017K  |  33.129K |  **146.146K**|
+|  Both           |  RGB, Depth, Event|  30  |  25*  |   113.017K  |  33.129K |  **146.146K**|
 
+*The indoor set contains all the action categories in the dataset. There are 13 overlapped action classes between the indoor and outdoor sets.  
 ## Action Class
 
 #### Indoor Actions (13)
