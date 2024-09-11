@@ -6,7 +6,7 @@ layout: default
 ---
 ## Introduction
 
-We are proud to announce a new large scale multimodal event-based human pose/action dataset `CDEHP Dataset`(**C**olor **D**epth **E**vent **H**uman **P**ose) with Color (RGB), Depth, and Event modules. `CDEHP Dataset` uses RGB, Depth, and Event cameras to simultaneously capture actions from a variety of subjects, bringing a new multimodal benchmark to the research of event-based human pose estimation and action recognition. Of course, you can also use this dataset to carry out research work in the RGB-D field or event camera field. If you are interested to build a multimodal event-based dataset, please refer to [How to Make](/how-to-make).
+We are proud to announce a new large scale multimodal event-based human pose/action dataset `CDEHP Dataset`(**C**olor, **D**epth, and **E**vent based **H**uman **P**ose) with Color (RGB), Depth, and Event modules. `CDEHP Dataset` uses RGB, Depth, and Event cameras to simultaneously capture actions from a variety of subjects, bringing a new multimodal benchmark to the research of event-based human pose estimation and action recognition. Of course, you can also use this dataset to carry out research work in the RGB-D field or event camera field. If you are interested to build a multimodal event-based dataset, please refer to [How to Make](/how-to-make).
 
 ## Dataset Statistic
 
