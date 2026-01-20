@@ -45,6 +45,23 @@ We are proud to announce a new large scale multimodal event-based human pose/act
 
 ![Indoor samples of all action classes](/assets/Indoor.png)
 ![Outdoor samples of all action classes](/assets/Outdoor.png)
+## Visualization of Skeleton Sequences
+
+<table>
+  <tr>
+    <td><img src="assets/gifs/A0003P0002S00_event_smooth.gif" width="200"></td>
+    <td><img src="assets/gifs/A0005P0006S00_event_smooth.gif" width="200"></td>
+    <td><img src="assets/gifs/A0006P0002S00_event_smooth.gif" width="200"></td>
+    <td><img src="assets/gifs/A0016P0015S00_event_smooth.gif" width="200"></td>
+  </tr>
+  <tr>
+    <td><img src="assets/gifs/A0018P0005S00_event_smooth.gif" width="200"></td>
+    <td><img src="assets/gifs/A0020P0016S00_event_smooth.gif" width="200"></td>
+    <td><img src="assets/gifs/A0022P0018S00_event_smooth.gif" width="200"></td>
+    <td><img src="assets/gifs/A0024P0004S00_event_smooth.gif" width="200"></td>
+  </tr>
+</table>
+
 
 ## Citation
 
