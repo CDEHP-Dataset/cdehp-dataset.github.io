@@ -46,8 +46,8 @@ After all chunks downloaded, it is strongly recommended that you need to perform
 
 ```shell
 # No output means the verification is successful
-sha256sum --quiet -c CDEHP_outdoor_v1.0_CHECKSUM.sha256
-sha256sum --quiet -c CDEHP_indoor_v1.0_CHECKSUM.sha256
+sha256sum --quiet -c CDEHP_outdoor_v2.0_CHECKSUM.sha256
+sha256sum --quiet -c CDEHP_indoor_v2.0_CHECKSUM.sha256
 ```
 
 ## Unzip the Dataset
