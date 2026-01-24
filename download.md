@@ -78,10 +78,27 @@ sha256sum --quiet -c CDEHP_outdoor_v2.0_CHECKSUM.sha256
 sha256sum --quiet -c CDEHP_indoor_v2.0_CHECKSUM.sha256
 ```
 
-## Unzip the Dataset
+## Decompress the Dataset
 
-Please make sure you unzip all Zip files into one same directory path, so that you can get a complete dataset. To this end, please use the command line to do the unzipping, because some GUI-based apps (e.g., MacZip) may unzip these Zip files into different directory paths.
-
+### Linux and MacOS:
 ```shell
-unzip *.zip
+cat CDEHP_outdoor_v2.0.tar.part_* | tar -xvf -
+cat CDEHP_indoor_v2.0.tar.part_* | tar -xvf -
 ```
+### Windows:
+Option 1: WSL (Recommended for ML / Research users):
+```shell
+cat CDEHP_dataset.tar.part_* | tar -xvf -
+```
+Option 2: 7-Zip (GUI):
+```shell
+Install 7-Zip
+Select all CDEHP_dataset.tar.part_* files
+Right-click → Extract Here
+If a CDEHP_outdoor_v2.0.tar/ CDEHP_indoor_v2.0.tar file appears, right-click it → Extract Here
+```
+### Notes:
+•	All parts must be downloaded into the same directory
+•	Do not rename split files
+•	Archives were created on Ubuntu 22.04
+•	SHA256 checksums are provided for data integrity verification
