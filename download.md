@@ -12,7 +12,7 @@ Please prepare at least 100GiB space to store the CDEHP dataset. The decompresse
 
 | File Name                              | Github    | Baidu Disk | sha256sum | 
 | :-----------------------------------: | :-------: | :--------: | :----------|
-| CDEHP_outdoor_v2.0.tar.part_aa        | Link***** | Link*****  | 82b98832192bbe5a4f0e6a799896c23eda7cfea35035dab1ecb52c68538afccd |
+| CDEHP_outdoor_v2.0.tar.part_aa        | [Link](https://github.com/CDEHP-Dataset/cdehp-dataset.github.io/releases/download/Release/CDEHP_outdoor_v2.0.tar.part_aa) | [Link](https://pan.baidu.com/s/1WwqOlYGXtRa3HTI0D5SNPg?pwd=tr28)  | 82b98832192bbe5a4f0e6a799896c23eda7cfea35035dab1ecb52c68538afccd |
 | CDEHP_outdoor_v2.0.tar.part_ab        | Link***** | Link*****  | 345f17187025b2a1eacea20202e44c6323d52844fd7c0c844b78750e884d36b2 |
 | CDEHP_outdoor_v2.0.tar.part_ac        | Link***** | Link*****  | 27068d8ba1f885c66df1a8bfef8381a848494ac7a4c538fceeed2de7a061ea5f |
 | CDEHP_outdoor_v2.0.tar.part_ad        | Link***** | Link*****  | 9306a31c0892ded376cd249808a7c556109e4c5d708b00248f7ab9b842f1d7f0 |
@@ -70,7 +70,7 @@ Please prepare at least 100GiB space to store the CDEHP dataset. The decompresse
 
 ## Integrity Verification
 
-After all chunks downloaded, it is strongly recommended that you need to perform a consistency check.
+After all **Split Tar** files downloaded, it is strongly recommended that you should perform a consistency check using **sha256sum** to ensure the integrity of the dataset.
 
 ```shell
 # No output means the verification is successful
@@ -86,19 +86,18 @@ cat CDEHP_outdoor_v2.0.tar.part_* | tar -xvf -
 cat CDEHP_indoor_v2.0.tar.part_* | tar -xvf -
 ```
 ### Windows:
-Option 1: WSL (Recommended for ML / Research users):
+**Option 1: WSL (Recommended for ML / Research users)**
 ```shell
-cat CDEHP_dataset.tar.part_* | tar -xvf -
+cat CDEHP_outdoor_v2.0.tar.part_* | tar -xvf -
+cat CDEHP_indoor_v2.0.tar.part_* | tar -xvf -
 ```
-Option 2: 7-Zip (GUI):
-```shell
-Install 7-Zip
-Select all CDEHP_dataset.tar.part_* files
-Right-click → Extract Here
-If a CDEHP_outdoor_v2.0.tar/ CDEHP_indoor_v2.0.tar file appears, right-click it → Extract Here
-```
+**Option 2: 7-Zip (GUI)**
+•	Install 7-Zip
+•	Select all `CDEHP_outdoor_v2.0.tar.part_*` or `CDEHP_indoor_v2.0.tar.part_*` files
+•	Right-click → Extract Here
+•	If a `.tar` file appears, right-click it → Extract Here
 ### Notes:
-•	All parts must be downloaded into the same directory
-•	Do not rename split files
-•	Archives were created on Ubuntu 22.04
-•	SHA256 checksums are provided for data integrity verification
+•	All parts must be downloaded into **the same** directory
+•	**Do not** rename split files
+•	Archives were created on **Ubuntu 22.04**
+•	**SHA256 checksums** are provided for data integrity verification
