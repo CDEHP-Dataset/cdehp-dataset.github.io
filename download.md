@@ -92,12 +92,13 @@ cat CDEHP_outdoor_v2.0.tar.part_* | tar -xvf -
 cat CDEHP_indoor_v2.0.tar.part_* | tar -xvf -
 ```
 **Option 2: 7-Zip (GUI)**
-•	Install 7-Zip
-•	Select all `CDEHP_outdoor_v2.0.tar.part_*` or `CDEHP_indoor_v2.0.tar.part_*` files
-•	Right-click → Extract Here
-•	If a `.tar` file appears, right-click it → Extract Here
+- Install 7-Zip
+- Select all `CDEHP_outdoor_v2.0.tar.part_*` or `CDEHP_indoor_v2.0.tar.part_*` files
+- Right-click → Extract Here
+- If a `.tar` file appears, right-click it → Extract Here
+
 ### Notes:
-•	All parts must be downloaded into **the same** directory
-•	**Do not** rename split files
-•	Archives were created on **Ubuntu 22.04**
-•	**SHA256 checksums** are provided for data integrity verification
+- All parts must be downloaded into **the same** directory
+- **Do not** rename split files
+- Archives were created on **Ubuntu 22.04**
+- **SHA256 checksums** are provided for data integrity verification
